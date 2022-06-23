@@ -1,0 +1,603 @@
+#header {
+  background: #ffffff;
+}
+
+header {
+  border-bottom-style: solid;
+  color: #ececec;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#navigation ul li {
+}
+
+a {
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+  color: black;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+.biznes {
+  display: flex;
+  justify-content: center;
+}
+.ulbutton {
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+}
+
+ul li {
+  display: inline;
+}
+
+ul {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  padding-left: 0px;
+}
+
+#navigation a:hover {
+  color: #2196f3;
+}
+
+.agency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.agency {
+}
+
+.portfolio {
+}
+
+.contact {
+}
+
+.info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+
+.info a {
+  color: #757575;
+}
+
+.info a:hover {
+  color: #2196f3;
+}
+.mail {
+  text-decoration: none;
+}
+
+.tel {
+  text-decoration: none;
+}
+.web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+}
+
+.blue {
+  color: #2196f3;
+}
+
+.containers {
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+.mcontainer {
+  background: #2f303a;
+  width: 1200px;
+  display: inline;
+  text-align: center;
+}
+
+.efekt h1 {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.buttoni {
+  background: #2196f3;
+  color: white;
+}
+
+figure {
+  margin: 0;
+}
+
+.pho p {
+  text-align: left;
+}
+
+.containerwe {
+  background: #ffffff;
+}
+
+.lor {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.lor ul {
+  display: flex;
+}
+
+.lor p {
+  color: #757575;
+  text-align: left;
+  font-size: 14px;
+}
+
+.lor h3 {
+  text-align: left;
+}
+.tabc {
+}
+
+.lorem {
+  color: #757575;
+}
+
+.czym {
+  padding-bottom: 94px;
+}
+
+.boxczym {
+  text-align: center;
+}
+
+.boxczym h2 {
+}
+
+.teamc {
+  background: #f5f4fa;
+  padding-top: 94px;
+}
+
+.teamc h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teamc p {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teambox {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  /* Make a flex container multiline */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  padding: 0px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.john1box {
+  background: #ffffff;
+}
+
+.john1img {
+}
+
+.johnbox2 {
+  background: #ffffff;
+}
+
+.john2img {
+}
+
+.johnbox3 {
+  background: #ffffff;
+}
+
+.john3img {
+}
+
+.johnbox4 {
+  background: #ffffff;
+}
+
+.john4img {
+}
+
+.teambox h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  font-weight: bold;
+}
+
+.teambox p {
+  color: #757575;
+}
+
+.bold td {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 4px;
+  background: #f5f4fa;
+  border-style: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+}
+
+.cardsp {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.itemp {
+  /*  Set the width of the elements  */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 20px) / 3);
+}
+
+.itemp h3 {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.itemp p {
+  color: #757575;
+  text-align: left;
+  padding-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.one {
+}
+
+.two {
+}
+
+.three {
+}
+
+.four {
+}
+
+.five {
+}
+
+.technoc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.technoimg {
+}
+
+.title1 h3 a {
+}
+
+figcaption h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+figcaption {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.basketc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.basketimg {
+}
+
+.title2 h3 a {
+}
+
+.seac {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.seaimg {
+}
+
+.title3 h3 a {
+}
+
+.headc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.headimg {
+}
+
+.title4 h3 a {
+}
+
+.boxc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.boximg {
+}
+
+.title5 h3 a {
+}
+
+.screenc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.screenimg {
+}
+
+.title6 h3 a {
+}
+
+.bookc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.bookimg {
+}
+
+.title7 h3 a {
+}
+
+.labelc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.labimg {
+}
+
+.title8 h3 a {
+}
+
+.laptopc {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.screenimg {
+}
+
+.title9 h3 a {
+}
+
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: #2f303a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+.footercp {
+  background-color: #2f303a;
+}
+.web2 {
+  padding: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+.foot a {
+}
+
+.city {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.city2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+}
+address a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail1 {
+}
+
+.tel1 {
+}
+
+.mail2 {
+}
+
+.tel2 {
+}
+address a:hover {
+}
