@@ -1,5 +1,6 @@
 #header {
   background: #ffffff;
+  margin: 0px auto;
 }
 
 header {
@@ -7,10 +8,14 @@ header {
   color: #ececec;
   width: 1200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 
 #navigation ul li {
+  font-weight: bold;
+  padding-right: 20px;
 }
 
 a {
@@ -35,6 +40,13 @@ button {
   cursor: pointer;
 }
 
+.buttonp {
+  width: 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -51,7 +63,19 @@ button {
 .biznes {
   display: flex;
   justify-content: center;
+  padding-top: 0px;
 }
+
+.biznes1 {
+  background-image: url(/images/squad.jpg);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  padding-top: 0px;
+  margin: 0 auto;
+}
+
 .ulbutton {
   list-style-type: none;
   text-decoration: none;
@@ -71,6 +95,8 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #navigation a:hover {
@@ -133,9 +159,7 @@ a {
 
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: 
-  width: 270px;
-  height: 120px;black;
+  color: black;
 }
 
 .blue {
@@ -149,21 +173,16 @@ a {
 }
 
 .mcontainer {
+  background: #2f303a;
   background-image: url(/images/squad.jpg);
   width: 1200px;
-  height: 600px;
-  display: inline;
-  text-align: center;
-}
-
-.sat {
-  background-color: #F5F4FA;
-  width: 270px;
-  height: 120px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  height: 600px;
+  padding-top: 0px;
 }
+
 .efekt h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -174,14 +193,15 @@ a {
   color: #ffffff;
 }
 
+h1 {
+  text-align: center;
+}
+
 .buttoni {
   background: #2196f3;
   color: white;
-}
-
-.squad {
-  background-color: red;
-  width: 300px;
+  width: 200px;
+  height: 50px;
 }
 
 figure {
@@ -266,7 +286,7 @@ figure {
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   /* Make a flex container multiline */
   gap: 10px;
   padding: 0;
@@ -280,13 +300,9 @@ figure {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
-.svgcards {
-  display: flex;
-  justify-content: space-evenly;
-}
 .john1box {
   background: #ffffff;
 }
@@ -382,7 +398,15 @@ button:hover {
   font-weight: 400;
   font-size: 16px;
 }
-.one {
+
+.photos {
+  padding-top: 94px;
+}
+
+.butp {
+  height: 38px;
+  border-radius: 4px;
+  width: auto;
 }
 
 .two {
@@ -463,6 +487,12 @@ figcaption {
   border: 1px solid #eeeeee;
 }
 
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
 .headimg {
 }
 
@@ -529,27 +559,6 @@ figcaption {
 .title9 h3 a {
 }
 
-h1 {
-  text-align: center;
-}
-
-.blok1 {
-  display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-}
-.blok {
-  width: 170px;
-  height: 92px;
-  border-radius: 1px;
-  border-color: #AFB1B8;
-  border-style: solid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
 p {
   font-family: "Roboto";
   font-style: normal;
@@ -566,14 +575,15 @@ footer {
   background-color: #2f303a;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 100px;
+  height: 252px;
+  display: flex;
+  align-items: center;
 }
 
 .footercp {
   background-color: #2f303a;
 }
 .web2 {
-  padding: 20px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -582,6 +592,8 @@ footer {
   /* identical to box height */
   color: white;
   letter-spacing: 0.03em;
+  display: flex;
+  width: 145px;
 }
 
 .foot a {
@@ -617,7 +629,10 @@ footer {
 address {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  width: 250px;
 }
+
 address a {
   font-family: "Roboto";
   font-style: normal;
@@ -625,15 +640,36 @@ address a {
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 15px;
 }
-.mail1 {
+
+.mail {
+  padding-right: 20px;
+  width: 165px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.info:hover {
+  fill: black;
 }
 
 .tel1 {
+  width: 120px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .mail2 {
@@ -642,4 +678,87 @@ address a {
 .tel2 {
 }
 address a:hover {
+}
+
+.sat {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svgcards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blok1 {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.blok {
+  width: 170px;
+  height: 92px;
+  border-radius: 5px;
+  border-color: #afb1b8;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blok:hover {
+  border-color: #2196f3;
+}
+
+.svg1:hover {
+  box-shadow: 0 0 0 8px #2196f3;
+  background-color: #2196f3;
+  border-radius: 40%;
+}
+
+.svg2:hover {
+  box-shadow: 0 0 0 8px #2196f3;
+  background-color: #2196f3;
+  border-radius: 40%;
+}
+.svg3:hover {
+  box-shadow: 0 0 0 8px #2196f3;
+  background-color: #2196f3;
+  border-radius: 40%;
+}
+.svg4:hover {
+  box-shadow: 0 0 0 8px #2196f3;
+  background-color: #2196f3;
+  border-radius: 40%;
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+}
+
+.svgcardsf {
+  display: flex;
+  justify-content: center;
+}
+
+.join h3 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  left: 531px;
+}
+
+.blok2 {
+  padding-right: 15px;
 }
