@@ -68,12 +68,14 @@ button {
 
 .biznes1 {
   background-image: url(/images/squad.jpg);
+  background-image: linear-gradient (to right, black);
   display: flex;
   align-items: center;
   text-align: center;
   height: 600px;
   padding-top: 0px;
   margin: 0 auto;
+  max-width: 1600px;
 }
 
 .ulbutton {
@@ -384,6 +386,11 @@ button:hover {
   flex-basis: calc((100% - 20px) / 3);
 }
 
+.itemp:hover {
+  -webkit-box-shadow: 7px 10px 16px -3px rgba(0, 0, 0, 0.88);
+  box-shadow: 7px 10px 16px -3px rgba(0, 0, 0, 0.88);
+}
+
 .itemp h3 {
   text-align: left;
   padding-left: 15px;
@@ -407,6 +414,14 @@ button:hover {
   height: 38px;
   border-radius: 4px;
   width: auto;
+}
+
+.butp:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: -webkit-box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
+box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
 }
 
 .two {
@@ -761,4 +776,8 @@ address a:hover {
 
 .blok2 {
   padding-right: 15px;
+}
+
+.svgcards:hover {
+  fill: #eeeeee;
 }
