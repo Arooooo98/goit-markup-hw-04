@@ -67,7 +67,7 @@ button {
 }
 
 .biznes1 {
-  background-image: url(/images/squad.jpg);
+  background-image: url(../images/squad.jpg);
   background-image: linear-gradient (to right, black);
   display: flex;
   align-items: center;
@@ -141,8 +141,22 @@ a {
   color: #757575;
 }
 
-.info a:hover {
+.info a:hover{
   color: #2196f3;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.circle {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.svg2 {
+  fill: yellow;
 }
 .mail {
   text-decoration: none;
@@ -364,9 +378,6 @@ button {
   background: #f5f4fa;
   border-style: hidden;
   font-family: "Roboto", sans-serif;
-}
-
-button:hover {
 }
 
 .cardsp {
@@ -672,9 +683,6 @@ address a {
   color: #757575;
 }
 
-.info:hover {
-  fill: black;
-}
 
 .tel1 {
   width: 120px;
@@ -726,8 +734,14 @@ address a:hover {
   justify-content: center;
 }
 
-.blok:hover {
+
+
+ .blok:hover{
   border-color: #2196f3;
+}
+
+.blok1:hover > path{
+  fill: #2196f3;
 }
 
 .svg1:hover {
@@ -740,6 +754,7 @@ address a:hover {
   box-shadow: 0 0 0 8px #2196f3;
   background-color: #2196f3;
   border-radius: 40%;
+  fill: white;
 }
 .svg3:hover {
   box-shadow: 0 0 0 8px #2196f3;
@@ -750,7 +765,7 @@ address a:hover {
   box-shadow: 0 0 0 8px #2196f3;
   background-color: #2196f3;
   border-radius: 40%;
-}
+} */
 
 .join {
   display: flex;
@@ -775,7 +790,13 @@ address a:hover {
 }
 
 .blok2 {
-  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 .svgcards:hover {
