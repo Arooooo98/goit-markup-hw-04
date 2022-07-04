@@ -799,6 +799,11 @@ address a:hover {
   width: 40px;
 }
 
+.eh {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
 .svgcards:hover {
   fill: #eeeeee;
 }
