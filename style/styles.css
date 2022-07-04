@@ -734,7 +734,21 @@ address a:hover {
   justify-content: center;
 }
 
+.svg1 path:hover {
+  fill:white;
+}
 
+.svg2 path:hover {
+  fill:white;
+}
+
+.svg3 path:hover {
+  fill:white;
+}
+
+.svg4 path:hover {
+  fill:white;
+}
 
  .blok:hover{
   border-color: #2196f3;
@@ -804,6 +818,7 @@ address a:hover {
   display: flex;
   justify-content: space-between;
 }
+
 .svgcards:hover {
   fill: #eeeeee;
 }
