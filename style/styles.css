@@ -139,14 +139,19 @@ a {
 
 .info a {
   color: #757575;
+  width: auto;
 }
 
 .info a:hover{
   color: #2196f3;
 }
 
-svg {
-  cursor: pointer;
+.info svg {
+  fill: #757575;
+}
+
+.info svg:hover {
+  fill:#2196f3;
 }
 
 .circle {
@@ -307,6 +312,10 @@ figure {
   gap: 10px;
   padding: 0;
   list-style: none;
+}
+
+.cards svg {
+  cursor: pointer;
 }
 
 .item {
@@ -606,6 +615,10 @@ footer {
   align-items: center;
 }
 
+footer svg {
+  cursor: pointer;
+}
+
 .footercp {
   background-color: #2f303a;
 }
@@ -721,6 +734,7 @@ address a:hover {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
+  fill: #AFB1B8;
 }
 
 .blok {
@@ -734,27 +748,27 @@ address a:hover {
   justify-content: center;
 }
 
-.svg1 path:hover {
-  fill:white;
+.svg1{
+  fill:#AFB1B8;
 }
 
-.svg2 path:hover {
-  fill:white;
+.svg2{
+  fill:#AFB1B8;
 }
 
-.svg3 path:hover {
-  fill:white;
+.svg3{
+  fill:#AFB1B8;
 }
 
-.svg4 path:hover {
-  fill:white;
+.svg4{
+  fill:#AFB1B8;
 }
 
- .blok:hover{
+.blok:hover{
   border-color: #2196f3;
 }
 
-.blok1:hover > path{
+.blok1 :hover > svg{
   fill: #2196f3;
 }
 
@@ -762,6 +776,7 @@ address a:hover {
   box-shadow: 0 0 0 8px #2196f3;
   background-color: #2196f3;
   border-radius: 40%;
+  fill: white;
 }
 
 .svg2:hover {
@@ -774,11 +789,14 @@ address a:hover {
   box-shadow: 0 0 0 8px #2196f3;
   background-color: #2196f3;
   border-radius: 40%;
+  fill: white;
 }
+
 .svg4:hover {
   box-shadow: 0 0 0 8px #2196f3;
   background-color: #2196f3;
   border-radius: 40%;
+  fill: white;
 } */
 
 .join {
@@ -809,8 +827,8 @@ address a:hover {
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 30px;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
 }
 
 .eh {
