@@ -142,16 +142,17 @@ a {
   width: auto;
 }
 
-.info a:hover{
+.info a:hover {
   color: #2196f3;
 }
 
 .info svg {
   fill: #757575;
+  vertical-align: middle;
 }
 
 .info svg:hover {
-  fill:#2196f3;
+  fill: #2196f3;
 }
 
 .circle {
@@ -439,9 +440,9 @@ button {
 .butp:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: -webkit-box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
--moz-box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
-box-shadow: 2px 19px 18px -9px rgba(66, 68, 90, 1);
+  -webkit-box-shadow: 4px 7px 29px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 7px 29px -14px rgba(66, 68, 90, 1);
+  box-shadow: 4px 7px 29px -14px rgba(66, 68, 90, 1);
 }
 
 .two {
@@ -696,7 +697,6 @@ address a {
   color: #757575;
 }
 
-
 .tel1 {
   width: 120px;
   font-family: "Roboto";
@@ -734,7 +734,7 @@ address a:hover {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .blok {
@@ -748,27 +748,27 @@ address a:hover {
   justify-content: center;
 }
 
-.svg1{
-  fill:#AFB1B8;
+.svg1 {
+  fill: #afb1b8;
 }
 
-.svg2{
-  fill:#AFB1B8;
+.svg2 {
+  fill: #afb1b8;
 }
 
-.svg3{
-  fill:#AFB1B8;
+.svg3 {
+  fill: #afb1b8;
 }
 
-.svg4{
-  fill:#AFB1B8;
+.svg4 {
+  fill: #afb1b8;
 }
 
-.blok:hover{
+.blok:hover {
   border-color: #2196f3;
 }
 
-.blok1 :hover > svg{
+.blok1 :hover > svg {
   fill: #2196f3;
 }
 
@@ -797,9 +797,8 @@ address a:hover {
   background-color: #2196f3;
   border-radius: 40%;
   fill: white;
-} */
-
-.join {
+}
+*/ .join {
   display: flex;
   justify-content: center;
 }
