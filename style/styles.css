@@ -13,6 +13,18 @@ header {
   height: 80px;
 }
 
+.headersvg {
+  width: 16px;
+  height: 12px;
+  fill: grey;
+}
+
+.headersvg2 {
+  width: 10px;
+  height: 16px;
+  fill: grey;
+}
+
 #navigation ul li {
   font-weight: bold;
   padding-right: 20px;
@@ -52,8 +64,15 @@ button {
   margin: 0 auto;
 }
 
-.container h2 {
-  justify-content: center;
+.work h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .biznes {
@@ -97,6 +116,9 @@ ul {
   justify-content: space-between;
 }
 
+.we {
+  padding-top: 0px;
+}
 #navigation a:hover {
   color: #2196f3;
 }
@@ -156,12 +178,6 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-.svg2 {
-  fill: yellow;
-}
-.mail {
-  text-decoration: none;
 }
 
 .tel {
@@ -241,6 +257,14 @@ figure {
 .lor {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.lor-list {
+  display: flex;
+  padding: 0;
+  padding-top: 94px;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .lor ul {
@@ -335,30 +359,6 @@ figure {
 
 .john1box {
   background: #ffffff;
-}
-
-.john1img {
-}
-
-.johnbox2 {
-  background: #ffffff;
-}
-
-.john2img {
-}
-
-.johnbox3 {
-  background: #ffffff;
-}
-
-.john3img {
-}
-
-.johnbox4 {
-  background: #ffffff;
-}
-
-.john4img {
 }
 
 .teambox h3 {
@@ -729,9 +729,8 @@ address a:hover {
 
 .blok1 {
   display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-  fill: #afb1b8;
+  padding: 0;
+  justify-content: space-between;
 }
 
 .blok {
@@ -745,19 +744,52 @@ address a:hover {
   justify-content: center;
 }
 
-.svg1 {
+.ellipse {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse:hover {
+  background-color: #2196f3;
+}
+
+.ellipse:hover svg {
+  fill: #fff;
+}
+
+.rectangle {
+  width: 170px;
+  height: 92px;
+  border: 3px solid #afb1b8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle:hover {
+  border-color: #2196f3;
+}
+
+.loogo {
+  width: 106px;
+  height: 60.04px;
   fill: #afb1b8;
 }
 
-.svg2 {
-  fill: #afb1b8;
+.svg-lor {
+  width: 70px;
+  height: 70px;
 }
 
-.svg3 {
-  fill: #afb1b8;
-}
-
-.svg4 {
+.svg-john {
+  width: 20px;
+  height: 20px;
   fill: #afb1b8;
 }
 
@@ -769,32 +801,6 @@ address a:hover {
   fill: #2196f3;
 }
 
-.svg1:hover {
-  box-shadow: 0 0 0 10px #2196f3;
-  background-color: #2196f3;
-  border-radius: 40%;
-  fill: white;
-}
-
-.svg2:hover {
-  box-shadow: 0 0 0 10px #2196f3;
-  background-color: #2196f3;
-  border-radius: 40%;
-  fill: white;
-}
-.svg3:hover {
-  box-shadow: 0 0 0 10px #2196f3;
-  background-color: #2196f3;
-  border-radius: 40%;
-  fill: white;
-}
-
-.svg4:hover {
-  box-shadow: 0 0 0 10px #2196f3;
-  background-color: #2196f3;
-  border-radius: 40%;
-  fill: white;
-}
 */ .join {
   display: flex;
   justify-content: center;
